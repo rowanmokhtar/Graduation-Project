@@ -42,7 +42,7 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-volatile float32_t result;
+////
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -85,10 +85,7 @@ int main(void)
 
   /* Initialize all configured peripherals */
   /* USER CODE BEGIN 2 */
-  float32_t test_in  = 16.0f;
-  float32_t test_out = 0.0f;
-  arm_sqrt_f32(test_in, &test_out);   /* expected 4.0 */
-  result = test_out;
+//////
   /* USER CODE END 2 */
 
 /* USER CODE END 2 */
