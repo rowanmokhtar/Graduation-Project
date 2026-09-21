@@ -1,0 +1,74 @@
+{
+	"abstract" : true,
+	"artifacts" : 
+	[
+		{
+			"path" : "C:/Users/rowan/AppData/Local/Programs/Git/mingw64/bin/git.exe"
+		}
+	],
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"find_package",
+			"include"
+		],
+		"files" : 
+		[
+			"C:/Program Files/CMake/share/cmake-4.3/Modules/FindGit.cmake",
+			"Middlewares/CMSIS-DSP/cmake/CMSISDSPVersion.cmake",
+			"Middlewares/CMSIS-DSP/Source/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 11,
+				"parent" : 2
+			},
+			{
+				"file" : 0,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 179,
+				"parent" : 4
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"id" : "Git::Git::@8c25d14a3fe0862eaffa",
+	"imported" : true,
+	"local" : true,
+	"name" : "Git::Git",
+	"nameOnDisk" : "git.exe",
+	"paths" : 
+	{
+		"build" : "bin_dsp",
+		"source" : "Middlewares/CMSIS-DSP/Source"
+	},
+	"sources" : [],
+	"type" : "EXECUTABLE"
+}
